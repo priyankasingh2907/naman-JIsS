@@ -1,0 +1,2483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title> Naman International Foundation For Education and Social Research
+    </title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon_io/favicon-16x16.png">
+    <!--./assets/img/fav/favicon.ico-->
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="./assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="./assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="./assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="./assets/owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owl/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+    <link rel="stylesheet" href="./assets/owl/css/style.css">
+    <style>
+        /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');*/
+
+        /*@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');*/
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;300&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+        }
+
+        /*.content-font {*/
+
+        /*     font-family: 'Montserrat', sans-serif;*/
+
+        /*     font-size:16px;*/
+
+        /* }*/
+
+        .bg-green {
+            background-color: #0f7e45;
+        }
+
+        .bg-light-blue {
+            background-color: #0c87cf;
+        }
+
+        .bg-lb {
+            background: #3e72af;
+        }
+
+        .bd-left {
+            border-left: 1px solid #16365a;
+        }
+
+        .desk-hide-logo img {
+            display: none;
+        }
+
+        .linedivider img {
+            width: 300px;
+            height: 15px;
+            box-shadow: none;
+        }
+
+        .linedivider2 img {
+            width: 170px;
+            height: 10px;
+            box-shadow: none;
+        }
+
+        .carousel-caption {
+            bottom: 0px;
+        }
+
+        .welcome-text-2 h6 {
+            /*font-family: roboto;*/
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            color: #02245b;
+            margin-top: 16px;
+            margin-bottom: 4px;
+            letter-spacing: 1px;
+            font-size: 30px;
+            line-height: 1;
+        }
+
+        .bg-overlay-black-80 {
+            position: relative;
+            z-index: 1
+        }
+
+        .bg-overlay-black-80:before {
+            background: rgba(1, 32, 60, 0.8);
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 0
+        }
+
+        .bg-overlay-footer {
+            position: relative;
+            z-index: 1
+        }
+
+        .bg-overlay-footer:before {
+            background: #01203cf2;
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 0
+        }
+
+        .dropdown-item {
+            display: inline-block;
+            position: relative;
+            color: #0087ca;
+        }
+
+        .dropdown-item:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 1px;
+            width: 90%;
+            bottom: 0;
+            left: 10px;
+            /*right:30px;*/
+            background-color: #526178;
+            transform-origin: bottom right;
+            transition: transform 0.70s ease-out;
+        }
+
+        .dropdown-item:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+        .footer-list a i {
+            color: #3e72af;
+            margin-top: 3px;
+            margin-right: 8px;
+        }
+
+        /*.naac img{*/
+
+        /*    height:92px*/
+
+        /*}*/
+
+        /*.moto img{*/
+
+        /*    height:92px*/
+
+        /*}*/
+
+        @media(max-width:2300px) {
+            .naac img {
+                height: 150px
+            }
+
+            .moto img {
+                padding-right: 77px;
+                height: 151px
+            }
+        }
+
+        @media(max-width:2000px) {
+            .naac img {
+                height: 140px
+            }
+
+            .moto img {
+                padding-right: 60px;
+                height: 131px
+            }
+        }
+
+        @media(max-width:1750px) {
+            .naac img {
+                height: 128px
+            }
+
+            .moto img {
+                padding-right: 0px;
+                height: 121px
+            }
+        }
+
+        @media(max-width:1550px) {
+            .naac img {
+                height: 110px
+            }
+
+            .moto img {
+                padding-right: 0px;
+                height: 110px
+            }
+        }
+
+        @media(max-width:1450px) {
+            .naac img {
+                height: 97px
+            }
+
+            .moto img {
+                padding-right: 0px;
+                height: 97px
+            }
+        }
+
+        @media(max-width:1320px) {
+            .naac img {
+                height: 90px
+            }
+
+            .moto img {
+                padding-right: 0px;
+                height: 90px
+            }
+        }
+
+        @media(max-width:1099px) {
+            .naac img {
+                height: 74px
+            }
+
+            .moto img {
+                height: 74px
+            }
+        }
+
+        @media(max-width:899px) {
+            .naac img {
+                height: 64px
+            }
+
+            .moto img {
+                height: 64px
+            }
+        }
+
+        @media(max-width:768px) {
+            .naac img {
+                height: 54px
+            }
+
+            .moto img {
+                height: 54px
+            }
+        }
+
+        .navbar {
+            background: #fff;
+            padding-top: 0;
+            padding-bottom: 0;
+            box-shadow: 1px 3px 4px 0 #adadad33;
+        }
+
+        .navbar-light .navbar-brand {
+            color: #02245B;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .navbar-light .navbar-brand:focus,
+        .navbar-light .navbar-brand:hover {
+            color: #1ebdc2;
+        }
+
+        .navbar-light .navbar-nav .nav-link:focus,
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #fff;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            font-family: 'Noto Sans TC', sans-serif;
+            border-left: 1px solid #16365a;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            transition: 0.9s;
+            padding-left: 4px;
+            padding-right: 4px;
+            color: #fff;
+            font-size: .84em;
+            font-weight: 300;
+        }
+
+        @media(max-width:1320px) {
+            .navbar-light .navbar-nav .nav-link {
+                padding-left: 4px;
+                padding-right: 4px;
+                font-size: .75em;
+            }
+        }
+
+        @media(max-width:1200px) {
+            .navbar-light .navbar-nav .nav-link {
+                font-size: 0.63em;
+                padding-left: 8px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #8e98a3;
+            }
+        }
+
+        @media(max-width:1080px) {
+            .navbar-light .navbar-nav .nav-link {
+                font-size: 0.61em;
+                padding-left: 4px;
+            }
+        }
+
+        @media(max-width:576px) {
+            .navbar-light .navbar-nav .nav-link {
+                font-size: 13px;
+                padding-left: 20px;
+            }
+        }
+
+        .navbar-light .navbar-nav .nav-link:focus,
+        .navbar-light .navbar-nav .nav-link:hover {
+            background: #3e72af;
+            transition: 0.9s;
+        }
+
+        .dropdown-item:focus,
+        .dropdown-item:hover {
+            color: #fff;
+            text-decoration: none;
+            /*transition: 0.9s;*/
+            background-color: #02245B !important;
+        }
+
+        .sm-menu {
+            border-radius: 0px;
+            border: 0px;
+            top: 97%;
+            box-shadow: rgba(173, 173, 173, 0.2) 1px 3px 4px 0px;
+        }
+
+        .dropdown-item {
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #fff;
+            font-size: .88em;
+            font-weight: 300;
+        }
+
+        @media(max-width:1320px) {
+            .dropdown-item {
+                font-size: .80em;
+                font-weight: 300;
+            }
+        }
+
+        @media(max-width:1200px) {
+            .dropdown-item {
+                font-size: 9px;
+                font-weight: 300;
+            }
+        }
+
+        @media(max-width:576px) {
+            .dropdown-item {
+                font-size: 13px;
+                font-weight: 300;
+            }
+        }
+
+        .submenu {
+            display: none;
+        }
+
+        .sm-menu:hover .submenu {
+            display: block;
+        }
+
+        .submenu.dropdown-item:focus,
+        .submenu.dropdown-item:hover {
+            color: #fff;
+            text-decoration: none;
+            transition: 0.9s;
+            background-color: #3e72af !important;
+        }
+
+        .dropdown-item.active,
+        .dropdown-item:active {
+            color: #fff;
+            text-decoration: none;
+            background-color: #2196F3;
+        }
+
+        .navbar-toggler {
+            outline: none !important;
+        }
+
+        .navbar-tog {
+            color: #1ebdc2;
+        }
+
+        .megamenu-li {
+            position: static;
+        }
+
+        .mp-bg {
+            background-image: url('assets/colleges/google-map.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .megamenu {
+            position: absolute;
+            opacity: 0.93;
+            width: 100%;
+            left: 0;
+            right: 0;
+            padding: 15px;
+            background-position: center top;
+            background: #02245B url('assets/img/menu-bg.png') no-repeat 100% 0;
+        }
+
+        .megamenu h6 {
+            margin-left: 21px;
+        }
+
+        .megamenu i {
+            width: 20px;
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            opacity: 0.93;
+            z-index: 1000;
+            display: none;
+            float: left;
+            min-width: 10rem;
+            padding: 0.5rem 0;
+            margin: 0rem 0 0;
+            font-size: 1rem;
+            color: #212529;
+            text-align: left;
+            list-style: none;
+            background-color: #02245b;
+            background-clip: padding-box;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 0.25rem;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+            background-color: #02245B;
+            /* background: #0d5281 url('assets/img/menu-bg.png') no-repeat 100% 0; */
+        }
+
+        .nav-bg {
+            background-color: #02245B;
+        }
+
+        .text-main {
+            color: #ffffff;
+        }
+
+        .text-blue {
+            color: #02245b;
+        }
+
+        /* submenu start*/
+
+        @media all and (min-width: 992px) {
+            .dropdown-menu li {
+                position: relative;
+            }
+
+            .nav-item #submenu {
+                display: none;
+                position: absolute;
+                left: 100%;
+                top: -7px;
+            }
+
+            .nav-item .submenu-left {
+                right: 100%;
+                left: auto;
+            }
+
+            .dropdown-menu>li:hover {
+                transition: 0.9s;
+                background-color: #3e72af
+            }
+
+            .dropdown-menu>li:hover>#submenu {
+                display: block;
+            }
+        }
+
+        /* ============ desktop view .end// ============ */
+
+        /* ============ small devices ============ */
+
+        @media (max-width: 991px) {
+            .dropdown-menu .dropdown-menu {
+                margin-left: 0.7rem;
+                margin-right: 0.7rem;
+                margin-bottom: .5rem;
+            }
+        }
+
+        /* submenu end */
+
+        @media screen and (min-width: 768px) {
+
+            /* .hide-home {
+                display: flex;
+            } */
+            .hide-home-txt {
+                display: none;
+            }
+
+            .nav-pad {
+                /*padding-left: 20px;*/
+                /*padding-right: 50px;*/
+                padding-left: 15px;
+                padding-right: 5px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .hide-home {
+                display: none;
+            }
+
+            .hide-home-txt {
+                display: none;
+            }
+
+            .megamenu {
+                position: absolute;
+                width: 100%;
+                left: 0;
+                right: 0;
+                padding: 15px;
+                max-height: 400px;
+                overflow-y: scroll;
+            }
+
+            .nav-pad {
+                padding: 5px;
+            }
+
+            .topmenu a {
+                font-size: 12px;
+                padding: 4px;
+            }
+
+            #google_translate_element {
+                display: block !important;
+                text-align: center;
+            }
+        }
+
+        .rounded-top-left-1 {
+            border-top-left-radius: 1rem;
+        }
+
+        .rounded-top-right-1 {
+            border-top-right-radius: 1rem;
+        }
+
+        .rounded-bottom-left-1 {
+            border-bottom-left-radius: 1rem;
+        }
+
+        .rounded-bottom-right-1 {
+            border-bottom-right-radius: 1rem;
+        }
+
+        .vc-msg-bg-color {
+            background-color: #02245B;
+        }
+
+        .text-orange {
+            color: #E15807;
+        }
+
+        .kulgeet {
+            background-color: #02245B;
+            color: #fff;
+        }
+
+        /*back to top style */
+
+        #back_to_top {
+            display: inline-block;
+            background-color: #3e72af;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border-radius: 4px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            transition: background-color .3s, opacity .5s, visibility .5s;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1000;
+        }
+
+        #back_to_top::after {
+            content: "\f077";
+            font-family: FontAwesome;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2em;
+            line-height: 50px;
+            color: #fff;
+        }
+
+        #back_to_top:hover {
+            cursor: pointer;
+            background-color: #0c87cf;
+        }
+
+        #back_to_top:active {
+            background-color: #e15807;
+        }
+
+        #back_to_top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        @media (min-width: 500px) {
+            #back_to_top {
+                margin: 30px;
+            }
+        }
+
+        /*Mobile menu home start*/
+
+        .navbar>.container-fluid,
+        .navbar>.container-lg,
+        .navbar>.container-md,
+        .navbar>.container-sm,
+        .navbar>.container-xl,
+        .navbar>.container-xxl {
+            display: flex;
+            flex-wrap: inherit;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /*Mobile menu home end*/
+
+        /* zoom button style */
+
+        .zoom-btn a {
+            cursor: pointer;
+        }
+
+        #main-wrapper {
+            transform-origin: 0% 0%;
+        }
+
+        .fontsizeV {
+            text-align: center;
+        }
+
+        .fontsizeV a {
+            font-size: 13px;
+            color: #fff;
+        }
+
+        #increaseFont {
+            font-size: 17px;
+        }
+
+        #decreaseFont {
+            font-size: 12px;
+        }
+
+        #google_translate_element {
+            display: inline-block;
+        }
+
+        #google_translate_element * {
+            color: #000 !important;
+            margin-right: 0px;
+            padding: 0px;
+        }
+
+        #google_translate_element span {
+            border: none;
+            margin: 0px;
+            border: none;
+            background: none;
+        }
+
+        #google_translate_element .skiptranslate .goog-te-gadget span {
+            color: #fff !important;
+            margin-left: 0px !important;
+            border: none !important;
+        }
+
+        #google_translate_element img {
+            margin: 0 !important;
+        }
+
+        .topmenu a {
+            color: #fff;
+            font-weight: 100;
+            border-right: 1px solid #6991bd;
+            padding: 3px 3px;
+        }
+
+        .bi-caret-down-fill {
+            font-size: 9px;
+        }
+
+        @media (max-width: 575px) {
+            .mobile-hide img {
+                display: block;
+            }
+
+            .desk-hide-logo img {
+                display: block;
+            }
+
+            .nav-bg {
+                background-color: #ffffff;
+            }
+
+            .nav-bg-1 {
+                background-color: #02245b;
+            }
+
+            .topmenu a {
+                color: #fff;
+                font-weight: 100;
+                border-right: 1px solid #a89b9b;
+                padding: 0px 8px;
+            }
+
+            #google_translate_element * {
+                margin-bottom: 0px;
+            }
+        }
+
+        .featured-carousel .owl-item {
+            opacity: 0;
+            transition-property: opacity;
+            overflow: hidden;
+        }
+
+        .featured-carousel .owl-item.active img {
+            transition: transform 6000ms linear 0s;
+            transform: scale(1.05, 1.05);
+            z-index: 8;
+        }
+
+        .featured-carousel .active {
+            opacity: 1;
+        }
+
+        /* Start Social Media Icon */
+
+        .fl-fl {
+            background-color: #3e72af;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            padding: 2px;
+            width: 210px;
+            position: fixed;
+            right: -175px;
+            z-index: 1000;
+            font: normal normal 10px Arial;
+            -webkit-transition: all .25s ease;
+            -moz-transition: all .25s ease;
+            -ms-transition: all .25s ease;
+            -o-transition: all .25s ease;
+            transition: all .99s ease;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+
+        .sm-icon {
+            font-size: 25px;
+            color: #fff;
+            padding: 10px 0;
+            width: 30px;
+            margin-left: 8px;
+            /*background-color:#0f7e45;*/
+            border-radius: 50%;
+        }
+
+        .fl-fl:hover {
+            right: -30px;
+        }
+
+        .fl-fl a {
+            color: #fff !important;
+            text-decoration: none;
+            text-align: center;
+            line-height: 43px !important;
+            vertical-align: top !important;
+        }
+
+        @media only screen and (max-width:768px) {
+            .fl-fl {
+                right: -175px;
+                width: 220px;
+            }
+
+            .sm-icon {
+                width: 40px;
+            }
+        }
+
+        .float-fb {
+            top: 270px;
+        }
+
+        .float-ig {
+            top: 325px;
+        }
+
+        .float-ytb {
+            top: 380px;
+        }
+
+        .float-lnkd {
+            top: 435px;
+        }
+
+        .float-twt {
+            top: 490px;
+        }
+
+        .insta-bgcolor {
+            background-color: #3e72af;
+        }
+
+        .ytb-bgcolor {
+            background-color: #3e72af;
+        }
+
+        .lnkd-bgcolor {
+            background-color: #3e72af;
+        }
+
+        .twt-bgcolor {
+            background-color: #3e72af;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 15px;
+        }
+
+        /* End Social Media Icon */
+    </style>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,hi',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: true
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+
+
+    <link rel="stylesheet" href="./assets/css/explore.css">
+    <style>
+        /*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');*/
+
+        /*@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');*/
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap');
+
+        .card-ftr-bg {
+            background-color: #3e72af;
+        }
+
+        .card-trans {
+            border: 1px solid #3e72af;
+            background-color: transparent !important;
+        }
+
+        .testimonial-trans {
+            border-radius: 14px;
+            border: 1px dashed #3e72af;
+            background-color: transparent !important;
+        }
+
+        .nav-tabs .nav-link.active {
+            border-radius: 4px;
+            padding: 4px 7px 4px 7px;
+            margin: 4px 1px 4px 1px;
+            border: 0px;
+            color: #ffffff;
+            background-color: #3e72af;
+            border-color: #dee2e6 #dee2e6 #fff;
+        }
+
+        .nav-tabs .nav-link {
+            color: #ffffff;
+            border: 1px solid transparent;
+            border-top-left-radius: 0.25rem;
+            border-top-right-radius: 0.25rem;
+        }
+
+        .ho-event ul li {
+            border-bottom: 1px dashed #0c87cf;
+            padding: 5px 0px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .iconBox>center i {
+            font-size: 42px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            background: #3e72af;
+            color: #fff;
+            width: 75px;
+            height: 75px;
+            line-height: 70px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border: 2px solid #02245b;
+        }
+
+        .iconBox2>center i {
+            border: 2px solid #3e72af;
+        }
+
+        .iconBox_border_right {
+            /*border-right: 1px dashed #3e72af;*/
+            margin-bottom: 10px;
+        }
+
+        .bg-overlay-notice {
+            position: relative;
+            z-index: 1
+        }
+
+        .bg-overlay-notice:before {
+            background: #01203ccf;
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 0
+        }
+
+        @media(max-width:600px) {
+            .iconBox_border_right_hide {
+                border-right: 1px dashed #ffffff;
+                margin-bottom: 10px;
+            }
+        }
+
+        .card1:hover {
+            background: #3e72af;
+            border-radius: 0px;
+            transition: all .2s ease-in-out;
+        }
+
+        .shrink2 :hover {
+            font-weight: 500;
+            color: #fff;
+            /*background-color: #3e72af;*/
+        }
+
+        .shrink2 a {
+            background-color: #02245b !important;
+        }
+
+        .shrink3 .imgDiv img {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+            transition: 1s ease;
+        }
+
+        .shrink3 .imgDiv img:hover {
+            -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        .shrink3 a {
+            color: white;
+        }
+
+        .shrink3 :hover {
+            color: #e15807;
+            text-decoration: none;
+        }
+
+        .shrink3 :hover {
+            font-weight: 500;
+            color: #fff;
+            background-color: #e15807;
+        }
+
+        .testimonial-item .quotes {
+            padding-left: 10px;
+            font-size: 30px;
+            line-height: 50px;
+            margin-bottom: 10px;
+            color: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #3e72af;
+            width: 50px;
+            height: 50px;
+            border-top-left-radius: 12px;
+            border-bottom-right-radius: 4px
+        }
+
+        @media(max-width:768px) {
+            .member {
+                padding-left: 58px;
+            }
+        }
+
+        @media(max-width:576px) {
+            .member {
+                padding-left: 28px;
+            }
+        }
+
+        @media(max-width:600px) {
+            .testimonial-item .quotes {
+                padding-left: 7px;
+                font-size: 21px;
+                line-height: 35px;
+                margin-bottom: 10px;
+                width: 29px;
+                height: 29px;
+            }
+        }
+
+        .divider33 {
+            border: 0;
+            height: 1px;
+            margin: 5px auto;
+            background: #3e72af;
+            text-align: center;
+            position: relative;
+            clear: both;
+        }
+
+        @media(max-width:550px) {
+            .divider33 {
+                width: 257px
+            }
+        }
+
+        .divider33 [class*=fa-],
+        .divider33 .icons {
+            background: #02245b;
+            border-radius: 50px;
+            display: inline-block;
+            height: 28px;
+            line-height: 28px;
+            position: absolute;
+            text-align: center;
+            width: 30px;
+            font-size: 15px;
+            margin: 11px auto 0 -24px;
+            top: -24px;
+            left: 50%;
+            z-index: 1;
+        }
+
+        @media(max-width:550px) {
+
+            .divider33 [class*=fa-],
+            .divider33 .icons {
+                margin: 11px auto 0 -10px;
+            }
+        }
+
+        .rounded-circle {
+            border: 2px solid #ffffff;
+            border-radius: 50% !important;
+        }
+
+        .testimonials .testimonial-item .h5 {
+            font-weight: 500;
+            color: #ffffff;
+        }
+
+        .testimonials .testimonial-item .h6 {
+            font-weight: 500;
+            color: #ffffff;
+            font-size: 17px;
+        }
+
+        .testimonials .testimonial-item p {
+            color: #ffffff;
+            /* margin: 0px 0px 0px 0px; */
+        }
+
+        .testimonials .testimonial-item span {
+            /* font-weight:600; */
+            color: #ffffff;
+        }
+
+        @media(max-width:500px) {
+            .testimonials .testimonial-item .h5 {
+                text-align: center;
+                font-size: 18px;
+                font-weight: 500;
+                color: #ffffff;
+            }
+
+            .testimonial-item .member .pic {
+                margin-top: 17px;
+            }
+
+            .testimonials .testimonial-item .h6 {
+                text-align: center;
+                font-weight: 500;
+                color: #ffffff;
+                font-size: 18px;
+            }
+
+            .testimonials .testimonial-item p {
+                color: #ffffff;
+                font-size: 13px;
+            }
+        }
+
+        @media(max-width:400px) {
+            .testimonials .testimonial-item .h5 {
+                font-size: 16px;
+            }
+
+            .testimonials .testimonial-item .h6 {
+                font-size: 15px;
+            }
+        }
+
+        .card-notice .date {
+            background: #235591;
+            /* border-bottom: 1px dotted #0a5730; */
+            font-size: 15px;
+            color: #ffffff;
+        }
+
+        .card-notice .month {
+            border-bottom: 1px dotted #0a5730;
+            font-size: 12px;
+        }
+
+        .card-notice .year {
+            font-size: 12px;
+        }
+
+        .newsletter1 a {
+            color: #ffffff;
+        }
+
+        .newsletter1 a:hover {
+            color: #ffd87e;
+        }
+
+        .gallery-slider {
+            border-bottom: 2px solid #0c87cf;
+            /* border-top: 2px solid #0c87cf; */
+        }
+
+        .gallery-slider .swiper-slide {
+            margin-right: 10px;
+        }
+
+        .news-gallery-slider {
+            border-bottom: 2px solid #0c87cf;
+            /* border-top: 2px solid #0c87cf; */
+        }
+
+        .youtube-video-slider {
+            border-bottom: 2px solid #0c87cf;
+            /* border-top: 2px solid #0c87cf; */
+        }
+
+        @media(max-width:600px) {
+            .welcome-text-2 h6 {
+                margin-top: 0px;
+                font-size: 25px;
+            }
+        }
+
+        @media(max-width:398px) {
+            .welcome-text-2 h6 {
+                margin-top: 0px;
+                font-size: 22px;
+            }
+        }
+
+        .btn-blue {
+            color: #ffffff;
+            background: #3e72af;
+        }
+
+        .btn-blue:hover {
+            color: #ffffff;
+            background: #3e72af;
+        }
+
+        .fa-star {
+            color: #ffffff;
+        }
+
+        .hori-marquee a {
+            font-size: 14px;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            right: 0%;
+            bottom: 0px;
+            left: 0%;
+            z-index: 10;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            color: #fff;
+            text-align: center;
+            background-color: #02245b;
+            opacity: 0.7;
+        }
+
+        .owl-carousel .owl-nav button span {
+            /*background: white;*/
+            /*padding: 5px 15px;*/
+            /*color: black;*/
+            /*font-size: 50px;*/
+            /*opacity: 0.5;*/
+            font-weight: bold;
+            font-size: 90px;
+        }
+
+        .owl-carousel .owl-dots {
+            text-align: center;
+            margin-top: 0;
+            position: absolute;
+            bottom: 0px;
+            right: 0;
+            left: 0;
+        }
+
+        @media(max-width:500px) {
+            .carousel-caption {
+                padding-top: 4px;
+                padding-bottom: 4px;
+            }
+
+            .carousel-caption h5 {
+                font-size: 13px;
+            }
+
+            .owl-carousel .owl-dots {
+                bottom: 0px;
+            }
+        }
+
+        /* animated-border */
+
+        .content-font {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            /*font-family: 'Poppins', sans-serif;*/
+        }
+
+        .btn {
+            padding: 2px 5px;
+        }
+
+        @media only screen and (max-width:768px) {
+            .welcome-to-ranchi {
+                width: 280px !important;
+                height: 10px !important;
+            }
+        }
+
+        @media screen and (min-width:992px) and (max-width:1025px) {
+            .gl {
+                left: -100px;
+            }
+
+            .nav-link {
+                font-size: 11px !important;
+            }
+        }
+
+        .academic-events marquee {
+            height: 340px;
+        }
+
+        @media(max-width:992px) {
+            .academic-events .nav-link {
+                display: block;
+                padding: 0.2rem 0.1rem;
+                font-size: 12px;
+            }
+
+            .nav-tabs .nav-link.active {
+                border-radius: 4px;
+                padding: 1px 5px 1px 5px;
+                margin: 3px 1px 3px 1px;
+                border: 0px;
+                color: #ffffff;
+                background-color: #3e72af;
+                border-color: #dee2e6 #dee2e6 #fff;
+            }
+        }
+
+        @media(max-width:768px) {
+            .academic-events .nav-link {
+                display: block;
+                margin: 3px 3px;
+                font-size: 14px;
+            }
+
+            .nav-tabs .nav-link.active {
+                border-radius: 4px;
+                padding: 1px 5px 1px 5px;
+                margin: 5px 3px 3px 3px;
+                border: 0px;
+                color: #ffffff;
+                background-color: #3e72af;
+                border-color: #dee2e6 #dee2e6 #fff;
+            }
+        }
+
+        #testimonial-js {
+            width: 100%;
+            position: absolute;
+            height: 400px;
+        }
+
+        .featured-logo.owl-carousel img {
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!--back to top button -->
+    <a id="back_to_top"></a>
+
+    <div class="container-fluid bg-lb text-white">
+
+        <div class="px-md-5 d-md-flex justify-content-end py-0">
+            <div class="topmenu fontsizeV">
+                <a target="_blank" href="https://email.godaddy.com/" class="highlight-title ng-binding">Email Login </a>
+                <!--<a target="_blank" href="/"-->
+                <!--    class="highlight-title ng-binding">NAAC </a>-->
+                <a href="/" class="highlight-title ng-binding">Directory </a>
+                <!--<a target="_blank" href="/"-->
+                <!--    class="highlight-title ng-binding">Examination </a>-->
+                <!--<a class="" target="_blank" href="/">e-Governance</a>-->
+                <!--<a class="" target="_blank" href="/">NIRF </a>-->
+                <a class="" href="/">RTI</a>
+                <a class="" href="/">Anti Ragging Cell</a>
+                <a href="/" class="">RU Alumni</a>
+                <a href="/">Student Grievance Redressal</a>
+                <!--<a target="_blank" href="/" class="">Grievance</a>-->
+                <a href="/" class="">Tenders</a>
+                <a href="/" class="">Career</a>
+                <a href="/" class="">Contact Us</a>
+                <a class="hidden-xs" href="javascript:void(0)" id="increaseFont" title="Smaller Font">A+</a>
+                <a class="hidden-xs" href="javascript:void(0)" id="resetFont" title="Medium Font">A</a>
+                <a class="hidden-xs" href="javascript:void(0)" id="decreaseFont" title="Larger Font">A-</a> &nbsp;
+                &nbsp;
+            </div>
+
+            <div id="google_translate_element"></div>
+        </div>
+
+    </div>
+
+    <section class="mt-0">
+
+        <div class="container-fluid px-md-5 " style="background: #eaf1fd;">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 d-none d-sm-block text-center">
+
+                    <a class="navbar-brand mobile-hide" href="/">
+                        <img class="img-fluid" src=./assets/img/logo/logoranchi.png alt="logo" style="">
+                    </a>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6  text-center">
+                    <!--<a class="navbar-brand text-center"href="/">-->
+                    <!--    <img  class="img-fluid text-center mx-auto" src="./assets/img/logo/naacb.png" alt="logo"-->
+                    <!--        style="">-->
+                    <!--</a>-->
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6  text-center">
+
+                    <a class="navbar-brand " href="/">
+                        <!--<img class="img-fluid" src=./assets/img/logo/ranchi-university-2.png alt="logo">-->
+                        <img class="img-fluid" src=./assets/img/logo/RU-64-Years.png alt="logo">
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <div id="main-wrapper">
+
+
+        <!---->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top  nav-bg  nav-pad justify-content-center">
+            <div class="container-fluid justify-content-right">
+
+
+
+                <a class="navbar-brand text-light hide-home-txt " href="">Naman International Foundation For Education
+                    and Social Research (NIFESR)</a>
+
+
+                <span class="desk-hide-logo"><a href=""><img width="240" class="img-fluid"
+                            src="./assets/img/logoranchi.png" alt="logo" style=""></a></span>
+                <button class="navbar-toggler bg-light " type="button" data-toggle="collapse" data-target="#mobile_nav"
+                    aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse float-md-right nav-bg-1 " id="mobile_nav">
+
+
+                    <ul class="navbar-nav navbar-light justify-content-center">
+                        <li class="nav-item dmenu dropdown px-2">
+                            <a class="nav-link " href="" style="    border-left: none;">
+                                Home <span></span>
+                            </a>
+
+                        </li>
+
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">About Us <span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Organisation&nbsp;</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Vision & Mission</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            NIFESR Logo </a>
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; Act
+                                            & Rules</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Recorganisation & Collaboration</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Who's is us</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Annual Report</a>
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                    <div class="col-sm-6 col-lg-3 mb-4">
+
+
+                                        <a class="dropdown-item" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp;Gallery</a>
+                                        <a class="dropdown-item" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp;Contact Us</a>
+                                        <a class="dropdown-item" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp;Policies</a>
+                                        <!--<a class="dropdown-item" href="/"><i-->
+                                        <!--        class="bi bi-caret-right-fill"></i>&nbsp;Deans</a>-->
+                                        <!--<a class="dropdown-item" href="/"><i-->
+                                        <!--        class="bi bi-caret-right-fill"></i>&nbsp;Administrations</a>-->
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Our Works <span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Education&nbsp;</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Skill Devlopment</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Youth Leadership</a>
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; Women Empowerment</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Tribal Reformation</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Who's is us</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Health</a>
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                   
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Institutes <span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Naman international School Remba&nbsp;</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Dineshwar Verma College of Higher and Vocational Education Remba</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Indian Institute of Leadership Policy and Governance </a>
+
+                                       
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                    
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">About Us <span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Organisation&nbsp;</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Vision & Mission</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            NIFESR Logo </a>
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; Act
+                                            & Rules</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Recorganisation & Collaboration</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Who's is us</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Annual Report</a>
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                    <div class="col-sm-6 col-lg-3 mb-4">
+
+
+                                        <a class="dropdown-item" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp;Gallery</a>
+                                        <a class="dropdown-item" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp;Contact Us</a>
+                                        <a class="dropdown-item" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp;Policies</a>
+                                        <!--<a class="dropdown-item" href="/"><i-->
+                                        <!--        class="bi bi-caret-right-fill"></i>&nbsp;Deans</a>-->
+                                        <!--<a class="dropdown-item" href="/"><i-->
+                                        <!--        class="bi bi-caret-right-fill"></i>&nbsp;Administrations</a>-->
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Publication<span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Naman&nbsp;</a>
+                                       
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Media <span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Events&nbsp;</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Print Media</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Webinar</a>
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; Video</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Press Related</a>
+                                        
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                    
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Confrences & Session <span><i class="bi bi-chevron-down "></i></span></a>
+                           
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Olympaid<span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Natural Education olympaid  &nbsp;</a>
+                                        
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                   
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Awards <span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Naman Awards&nbsp;</a>
+                                       
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                   
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Republication <span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Olympaid&nbsp;</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Seminars & Confrences</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;
+                                            Publication </a>
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; Awards</a>
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp;
+                                            Members</a>
+                                        
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                    
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Donate Us <span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Account&nbsp;</a>
+                                       
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                   
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown px-2 megamenu-li dmenu">
+                            <a class="nav-link" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">Contact Us <span><i class="bi bi-chevron-down "></i></span></a>
+                            <div class="dropdown-menu megamenu sm-menu" aria-labelledby="dropdown01">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                class="bi bi-chevron-right"></i>&nbsp; Refrence of the department&nbsp;</a>
+                                       
+                                                <a class="dropdown-item hover-underline-animation" href=""><i
+                                                    class="bi bi-chevron-right"></i>&nbsp; Members&nbsp;</a>
+                                    
+                                                    <a class="dropdown-item hover-underline-animation" href=""><i
+                                                        class="bi bi-chevron-right"></i>&nbsp; Institue&nbsp;</a>
+                                    
+                                                        <a class="dropdown-item hover-underline-animation" href=""><i
+                                                            class="bi bi-chevron-right"></i>&nbsp; Works&nbsp;</a>
+                                                
+                                    </div>
+                                    <!-- <div class="col-sm-6 col-lg-3 border-right border-warning mb-4">
+
+
+                                        <a class="dropdown-item" href=""> <i class="bi bi-chevron-right"></i>&nbsp; RTI</a>
+
+
+                                        <a class="dropdown-item" href="">
+                                            <i class="bi bi-chevron-right"></i>&nbsp; NIRF  </a>
+
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Calendar</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;University Infrastructure</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;IQAC</a>
+                                        <a class="dropdown-item" href=""><i class="bi bi-chevron-right"></i>&nbsp;Indian Knowledge Systems</a>
+
+                                    </div> -->
+
+                                   
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END nav -->
+
+
+
+        <!-- End Header -->
+        <main id="main">
+
+            <div class="hero featured-carousel owl-carousel">
+                <div class="item">
+                    <a href="/">
+                        <img class="img-fluid item-img" src="./niffeasr/slide1.jpg" alt="">
+                    </a>
+                    <div class="carousel-caption
+             d-md-block " style="">
+                        <h5>Naman International Foundation For Education and Social Research (NIFESR )</h5>
+                    </div>
+                </div>
+                <!--<div class="item">-->
+                <!--    <img class="img-fluid item-img" src="./assets/img/slider/slider13424.jpg" alt="">-->
+                <!--    <div class="carousel-caption-->
+                <!--     d-md-block " style="">-->
+
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--    <img class="img-fluid item-img" src="./assets/img/slider/slider23424.jpg" alt="">-->
+                <!--    <div class="carousel-caption-->
+                <!--     d-md-block " style="">-->
+
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--    <img class="img-fluid item-img" src="./assets/img/slider/newSlider 02.jpg" alt="">-->
+                <!--    <div class="carousel-caption-->
+                <!--     d-md-block " style="">-->
+
+                <!--    </div>-->
+                <!--</div>-->
+                <div class="item">
+                    <img class="img-fluid item-img" src="./niffeasr/slide2.jpg" alt="">
+                    <div class="carousel-caption
+             d-md-block " style="">
+                        <h5>Naman International Foundation For Education and Social Research (NIFESR )</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid item-img" src="./niffeasr/slide3.jpg" alt="">
+                    <div class="carousel-caption
+             d-md-block " style="">
+                        <h5>Naman International Foundation For Education and Social Research (NIFESR )</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid item-img" src="./niffeasr/slide3.jpg" alt="">
+                    <div class="carousel-caption
+             d-md-block " style="">
+                        <h5>Naman International Foundation For Education and Social Research (NIFESR ) </h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid item-img" src="./niffeasr/slide4.jpg" alt="">
+                    <div class="carousel-caption
+             d-md-block " style="">
+                        <h5>Naman International Foundation For Education and Social Research (NIFESR ) </h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid item-img" src="./niffeasr/baccha1.jpg" alt="">
+                    <div class="carousel-caption
+             d-md-block " style="">
+                        <h5>Naman International Foundation For Education and Social Research (NIFESR )n </h5>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="img-fluid item-img" src="./niffeasr/baccha 3.jpg" alt="">
+                    <div class="carousel-caption
+             d-md-block " style="">
+             <h5>Naman International Foundation For Education and Social Research (NIFESR )n </h5>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid item-img" src="./niffeasr/baccha4.jpg" alt="">
+                    <div class="carousel-caption
+             d-md-block " style="">
+             <h5>Naman International Foundation For Education and Social Research (NIFESR )n </h5>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-fluid item-img" src="./niffeasr/458504426_935684208589144_2903870832368902064_n.jpg" alt="">
+                    <div class="carousel-caption  d-md-block " style="">
+                        <h5>Naman International Foundation For Education and Social Research (NIFESR )n </h5>
+
+                    </div>
+                </div>
+                <!--<div class="item">-->
+                <!--    <img class="img-fluid item-img" src="./assets/img/slider/slider-1.jpg" alt="">-->
+                <!--    <div class="carousel-caption  d-md-block " style="">-->
+                <!--        <h5> Laboratory Infrastructure</h5>-->
+                <!--    </div>-->
+                <!--</div>-->
+                <!--<div class="item">-->
+                <!--    <img class="img-fluid item-img" src="./assets/img/slider/slider-18.jpg" alt="">-->
+                <!--    <div class="carousel-caption  d-md-block " style="">-->
+                <!--        <h5>Chemistry Classroom</h5>-->
+                <!--    </div>-->
+                <!--</div>-->
+
+                <!--<div class="item">-->
+                <!--    <img class="img-fluid item-img" src="./assets/img/slider/slider-20.jpg" alt="">-->
+                <!--    <div class="carousel-caption  d-md-block " style="">-->
+                <!--        <h5>MCA Classroom</h5>-->
+                <!--    </div>-->
+                <!--</div>-->
+
+            </div>
+    </div>
+
+    <section style="background-color: #3e72af;">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-md-10 align-self-center pt-2 pb-0 hori-marquee" style="margin: 0 auto">
+                    <marquee onMouseOver="this.stop()" onMouseOut="this.start()">
+                        <div>
+                            <!--                           <a href="./assets/notification/Important Notice.pdf" target="_blank"-->
+                            <!--                                style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new">  -->
+                            <!--Due to unavoidable circumstances, the scheduled interview in the subject " Fashion Designing" for the post of Assistant professor on 13.08.2024 is postponed till further notice.</a>|-->
+                            <!--<a href="./assets/notification/jyotirvigyan (1).pdf" target="_blank"-->
+                            <!--                                style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new">  -->
+                            <!--Due to unavoidable circumstances, the scheduled interview in the subject " Jyotirvigyan" for the post of Assistant professor on 10.08.2024 is postponed till further notice.</a>   | -->
+                            <!--<a href="./assets/notification/notice-for-assistant-professor.pdf" target="_blank"-->
+                            <!--                                style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new">  -->
+                            <!--Notice of All The Eligible Applicants For The Posts of Assistant Professor (Contractual Basis in Vocational Courses)</a>   |-->
+                            <!--<a href="/" target="_blank"-->
+                            <!--                                style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new">  -->
+                            <!--Updated list of Assistant Professor(Contractual) in Vocational Courses </a>   | -->
+
+                            <!--<a href="./assets/notification/debbared-candidates.jpeg" target="_blank"
+                                style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new">  
+Candidates Debarred Notice </a>   | 
+                             
+<!--                            <a href="./assets/notification/LIST OF EMPANELLED BOOK VENDORS.pdf" target="_blank"-->
+                            <!--                                style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new">  -->
+                            <!--List of Empanelled Book Vendors</a>   |-->
+
+
+                            <!--<a href="/" target="_blank"-->
+                            <!--    style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new">  Prepration of the panel for the appointment of Assistant Professors on purely contractual basis in Vocational courses.</a> | -->
+                            <a href="./assets/notification/re- advertisement.pdf" target="_blank" style="color: #fff;">
+                                <img src="assets/iqac/blinking_new.gif" alt="new">Required uploading</a> |
+                            <a href="./assets/latest/pti-notice-academic-marks.pdf" target="_blank"
+                                style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new">Academic Marks
+                                Notification for the Post of PTI</a> |
+                            <a href="./assets/latest/Merit List of PTI 2024 Interview held on 30.08.2024.pdf"
+                                target="_blank" style="color: #fff;"> <img src="assets/iqac/blinking_new.gif"
+                                    alt="new">Consolidated Merit List of PTI</a> |
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfknIidKTWci_Zo0ksfOlzHgJGLUV44ldNeT3M0AaXFikfQYA/viewform"
+                                target="_blank" style="color: #fff;"> <img src="assets/iqac/blinking_new.gif"
+                                    alt="new">Link to fill in the data for the creation of official I-Cards for Ranchi
+                                University employees</a> |
+                            <!--<a href="/" target="_blank"-->
+                            <!--     style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new"> Appointment of Need Based Assistant Professor</a> |-->
+                            <a href="./assets/latest/Advertisement revise schedule director.pdf" target="_blank"
+                                style="color: #fff;"> <img src="assets/iqac/blinking_new.gif" alt="new">Revised Schedule
+                                for online submission of applications for the post of Directors in self-finance
+                                courses,RU</a> |
+                            <a href="/" target="_blank" style="color: #fff;"> <img src="assets/iqac/blinking_new.gif"
+                                    alt="new"> PTI Interview</a> |
+                            <a href="/" target="_blank" style="color: #fff;"> <img src="assets/iqac/blinking_new.gif"
+                                    alt="new"> Anti Ragging Cell</a> &nbsp; &nbsp;| <a
+                                href="https://ranchiuniversity.ac.in/./assets/students_portal/exam-pro/Primary Application form E-MBA.pdf"
+                                target="_blank" style="color: #fff;"> Primary Application Form for E-MBA</a> &nbsp;
+                            &nbsp;| <a href="https://ranchiuniversity.ac.in/ru-policies" target="_blank"
+                                style="color: #fff;">Draft Policies for Suggestions from all stakeholders of Ranchi
+                                University</a> &nbsp; &nbsp;| &nbsp;
+                            <a href="./assets/downloads/draft-policy/RU-VC-109-2024 dt.26.04.2024.pdf" target="_blank"
+                                style="color: #fff;">Public Notice</a> &nbsp; &nbsp; &nbsp;
+                        </div>
+
+                    </marquee>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="./assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/vendor/php-email-form/validate.js"></script>
+
+    <script src="./assets/owl/js/jquery.min.js"></script>
+    <script src="./assets/owl/js/owl.carousel.min.js"></script>
+
+    <script src="./assets/owl/js/popper.js"></script>
+    <script src="./assets/owl/js/bootstrap.min.js"></script>
+
+    <script src="./assets/owl/js/main.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+        // back to top button
+        var btn = $("#back_to_top");
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass("show");
+            } else {
+                btn.removeClass("show");
+            }
+        });
+
+        btn.on("click", function (e) {
+            e.preventDefault();
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        });
+    </script>
+
+
+
+    <script>
+        $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+            if (!$(this).next().hasClass('show')) {
+                $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+            }
+            var $subMenu = $(this).next(".dropdown-menu");
+            $subMenu.toggleClass('show');
+
+
+            $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                $('.dropdown-submenu .show').removeClass("show");
+            });
+
+            return false;
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            var y = 2;
+
+            $('body').delegate('#increaseFont', 'click', function (e) {
+
+                if (y < 4) {
+                    $('*').each(function () {
+                        var x = parseInt($(this).css("font-size"));
+                        x = x + 1;
+                        $(this).css("font-size", x);
+                    });
+                    y = y + 1;
+                }
+            });
+            $('body').delegate('#decreaseFont', 'click', function (e) {
+                if (y > 0) {
+                    $('*').each(function () {
+                        var x = parseInt($(this).css("font-size"));
+                        x = x - 1;
+                        $(this).css("font-size", x);
+                    });
+                    y = y - 1;
+                }
+            });
+            $('body').delegate('#resetFont', 'click', function (e) {
+                $('*').each(function () {
+                    $(this).css("font-size", "");
+                });
+                y = 2;
+            });
+
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paroller.js/1.4.1/jquery.paroller.min.js"
+        integrity="sha512-jYedLgTWxBXtDBdGhnUgCgbgQ5j450R2LhxXk1G+pBcbaARaEC/qsrIhOtqAAiY7UBylc6bVGH6EFR10RNBXuQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.newsletter1').paroller();
+    </script>
+
+    <script src="./assets/js/js/particles.min.js"></script>
+    <script>
+        if ($('#strip-js').length > 0) {
+            particlesJS("strip-js", {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": false,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+        }
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#myModal").modal('show');
+        });
+
+        function CloseModalPopup() {
+            $("#myModal").modal('hide');
+        }
+        setTimeout(() => {
+            $("#myModal").modal('hide');
+        }, 5000);
+    </script>
+
+    <script>
+        if ($('#testimonial-js').length > 0) {
+            particlesJS("testimonial-js", {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#fff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#ffffff"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 3,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": false,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+        }
+    </script>
+
+
+</body>
+
+</html>
